@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items:flex-start;
+    background: -webkit-linear-gradient(left, #a4a7aa, #a2c8e7);
+    }
+
+ .container{
+        position: relative;
+        max-width: 430px;
+        padding: 50px;
+        margin: 0, 20px;
+}
+.container-content{
+    padding: 100px;
+}
+.menu{ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.cal-text{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+input[type] {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 50vh;
+}
+
+.display{
+    padding: 5px;
+}
+
+.cal{
+display: grid;
+grid-gap: 4px;
+grid-template-columns: repeat(4,80px);
+grid-template-rows: repeat(6, 40px);
+padding: 10px;
+}
+
+button{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+
+#history{
+background-color: white;
+display: none;
+padding: 0,20px;
+padding: 20px;
+width: 300px;
+margin: 30px 200px;
+
+}
+
+
+
+
+    

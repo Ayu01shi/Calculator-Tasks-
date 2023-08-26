@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/9704cdaa07.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+        <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </div>
+        <div class="container-content">
+        <div class="cal-text">
+            <span>Calculator</span>
+        </div>
+        <div class="display">
+            <input type="text" placeholder="0" id="result">
+        </div>
+        <div class="cal">
+            <button onclick="clearEnd()" >CE</button>
+            <button onclick="clearAll()">C</button>
+            <button onclick="backSpaces()">==></button>
+            <button onclick="number('/')">/</button>
+            <button onclick="number('7')">7</button>
+            <button onclick="number('8')">8</button>
+            <button onclick="number('9')">9</button>
+            <button onclick="number('*')">*</button>
+            <button onclick="number('4')">4</button>
+            <button onclick="number('5')">5</button>
+            <button onclick="number('6')">6</button>
+            <button onclick="number('-')">-</button>
+            <button onclick="number('1')">1</button>
+            <button onclick="number('2')">2</button>
+            <button onclick="number('3')">3</button>
+            <button onclick="number('+')">+</button>
+            <button onclick="number('0')">0</button>
+            <button onclick="number('.')">.</button>
+            <button onclick="calResult()">=</button>
+        </div>
+    </div>
+</div>
+    <div id="history" onclick="openMenu()">
+        <span>History</span>
+    </div>
+            
+</body>
+</html>
